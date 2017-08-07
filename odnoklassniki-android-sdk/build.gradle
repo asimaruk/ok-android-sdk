@@ -2,6 +2,10 @@ apply plugin: 'com.android.library'
 apply from: 'library-push.gradle'
 apply from: 'git-tag.gradle'
 
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.YourUsername'
+
 dependencies {
     compile 'com.android.support:support-annotations:24.2.1'
 }
